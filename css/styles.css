@@ -1,5 +1,22 @@
+/*
+para estandarizar las medidas de texto en los sitios web es necesario darle unas medidas específicas tanto al html como al body
+*/
+
+
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 16px;
+}
+
+/* a partir de aquí, 1rem = 10px */
+
 h1{
-    color: blue;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
+    font-size: 3.8rem;
+}
+
+span{
+    font-size: 2rem;
 }

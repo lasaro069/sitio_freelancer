@@ -12,11 +12,15 @@ body{
 
 /* a partir de aquí, 1rem = 10px */
 
-h1{
+.titulo{
     text-align: center;
     font-size: 3.8rem;
 }
 
-span{
+.titulo span{
     font-size: 2rem;
+}
+
+h1.titulo{
+    color: rgb(33, 33, 175)
 }

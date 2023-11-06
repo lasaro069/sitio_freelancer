@@ -26,12 +26,19 @@ h1.titulo{
 }
 
 .contenedor{
-    width: 120rem;
+    width: 60%;
     margin-top: 0;
-    margin-right: auto;
+    margin-right: ;
     margin-bottom: 0;
     margin-left: auto;
+    /* otra forma de poner márgenes es */
+    /*margin: valor-margin-tpo valor-margin-right valor-margin-buttom valor-margin-left*/
 }
-.navegacion-principal{
-    background-color: cadetblue; /*se da color a la barra de navegación*/
+
+.nav-bg{
+    background-color: cadetblue;
+}
+
+.navegacion-principal a{
+    background-color: burlywood; /*se da color a la barra de navegación*/
 }

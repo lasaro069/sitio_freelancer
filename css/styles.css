@@ -28,7 +28,7 @@ h1.titulo{
 .contenedor{
     width: 60%;
     margin-top: 0;
-    margin-right: ;
+    margin-right: auto;
     margin-bottom: 0;
     margin-left: auto;
     /* otra forma de poner márgenes es */
@@ -39,6 +39,23 @@ h1.titulo{
     background-color: cadetblue;
 }
 
+.navegacion-principal{
+    display: flex;
+    flex-direction: row;    /*No es necesario declarar row, viene por defecto*/
+    justify-content: space-between;
+}
+
 .navegacion-principal a{
-    background-color: burlywood; /*se da color a la barra de navegación*/
+    color: whitesmoke; /*se da color a la barra de navegación*/
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1rem;
+
+
+}
+
+.navegacion-principal a:hover{
+    background-color: rgb(75, 210, 30);
+    color: blue;
 }

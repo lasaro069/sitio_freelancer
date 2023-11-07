@@ -6,6 +6,7 @@ para estandarizar las medidas de texto en los sitios web es necesario darle unas
 html {
     font-size: 62.5%;
     box-sizing: border-box;
+    scroll-snap-type: y mandatory;
 }
 
 *,
@@ -49,8 +50,8 @@ h1.titulo {
     color: rgb(33, 33, 175)
 }
 
-w-100{
-    width: 100%;
+.w-100{
+    flex: 0 0 100%;
 }
 
 @media (min-width: 768px) {
@@ -180,6 +181,14 @@ w-100{
     align-items: flex-end;
 }
 
+.servicios,
+.navegacion-principal,
+.formulario{
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+}
+
+
  @media (min-width: 768px) {
     .servicios {
         display: grid;
@@ -277,8 +286,9 @@ w-100{
     border-radius: .5rem;
 }
 
-.enviar .boton{
-    width: 100%;
+.enviar{
+    display: flex;
+    justify-content: flex-end;
 
 }
 
